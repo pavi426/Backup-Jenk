@@ -9,9 +9,6 @@ pipeline {
     } 
 
 
-    triggers {
-        cron('0 18 * * *')   // Run daily at 6:00 PM
-    }
 
     stages {
         stage('Clean Old Backup') {
